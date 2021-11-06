@@ -62,7 +62,6 @@ export const GlobalStyle = createGlobalStyle`
             /* height: 6rem; */
             color: ${COLORS.grey};
             justify-content: center;
-            /* background-color: green; */
         }
         & form .label__group label{
             font-size: 1.6rem;

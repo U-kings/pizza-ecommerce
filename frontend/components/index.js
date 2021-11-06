@@ -1,0 +1,9 @@
+export { default as Ad } from "@components/Ad/index";
+export { default as Navbar } from "@components/Navbar/index";
+export { default as Hero } from "@components/Hero/index";
+export { default as Featureddeals } from "@components/FeaturedDeals/index";
+export { default as Newshops } from "@components/NewShops/index";
+export { default as Newsletter } from "@components/Newsletter/index";
+export { default as Topsellers } from "@components/TopSellers/index";
+export { default as Pizzagallery } from "@components/PizzaGallery/index";
+export { default as Search } from "@components/Search/index";
