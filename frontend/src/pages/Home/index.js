@@ -1,11 +1,10 @@
-import Footer from '@components/Footer';
+import React from 'react'
 import {
     Ad,
     Navbar,
     Hero,
-    Footer,
+    Footer
 } from '@components/index';
-import React from 'react'
 
 const Home = () =>  {
     return (

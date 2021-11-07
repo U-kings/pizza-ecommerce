@@ -2,11 +2,12 @@ import React, { useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import { logoutAdmin } from "./actions/auth";
 // import { useSelector, useDispatch } from "react-redux";
-import { decode } from "jsonwebtoken";
+// import { decode } from "jsonwebtoken";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import {
-  faUsers,
+  faBars,
+  faUser,
   faMoneyCheck,
   faHouseUser,
   faHandHoldingUsd,
@@ -25,12 +26,14 @@ import {
   Orders,
   Productdetails,
   Saveditems,
-  Checkout
+  Checkout,
+  Aboutus
 } from '@pages/index';
 import { GlobalStyle } from "./globalStyles";
 library.add(
   fab,
-  faUsers,
+  faBars,
+  faUser,
   faMoneyCheck,
   faHouseUser,
   faUserTag,
@@ -51,7 +54,7 @@ function App() {
       <Switch>
         {/* <Route exact path="/" component={Main} /> */}
 
-        <Route exact path="/home" component={Home} />
+        <Route exact path="/" component={Home} />
 
         {/* <Route exact path="/signup" render={() => <Signup />} /> */}
 
@@ -66,6 +69,8 @@ function App() {
         <Route exact path="/checkout" component={Checkout} />
 
         <Route exact path="/cart" component={Cart} />
+
+        <Route exact path="/about" component={Aboutus} />
       </Switch>
     </Router>
   );

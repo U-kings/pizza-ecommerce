@@ -1,3 +1,14 @@
 {
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  // "http.proxySupport": "off",
+  // "http.proxy": "",
+  // "http.proxyAuthorization": null,
+  // "http.proxyStrictSSL": false,
+  "json.schemas": [
+      {
+        "fileMatch": ["/package.json"],
+        "url": "https://json.schemastore.org/package",
+        "schema": true
+      }
+    ]
 }

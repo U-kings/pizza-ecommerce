@@ -2,11 +2,11 @@
     "compilerOptions": {
         "baseUrl": "./",
         "paths": {
-            "@pages/*": ["pages/*"],
-            "@components/*": ["components/*"],
-            "@values/*": ["values/*"],
-            "@lib/*": ["lib/*"],
+            "@pages/*": ["src/pages/*"],
+            "@components/*": ["src/components/*"],
+            "@values/*": ["src/values/*"],
+            "@lib/*": ["src/lib/*"],
         }
     },
-    "exclude": ["node_modules/"]
+    "exclude": ["node_modules"]
 }
